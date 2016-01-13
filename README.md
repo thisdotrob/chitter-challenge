@@ -1,10 +1,11 @@
-Chitter Challenge
-=================
-Features:
--------
+# Chitter Challenge
+
+## About
+This is my solution to the fourth weekend challenge set as part of the Makers Academy course.
+
 The challenge aims to address the following user stories:
 
-```sh
+```
 As a Maker
 So that I can post messages on Chitter as me
 I want to sign up for Chitter
@@ -29,6 +30,7 @@ As a maker
 So that I can better appreciate the context of a peep
 I want to see the time at which it was made
 ```
+
 Usage:
 ------
 0. ```git clone git@github.com:thisdotrob/chitter-challenge.git```
@@ -43,15 +45,3 @@ To run tests:
 0. ```createdb chitter_test```
 0. ```rake db:auto_migrate RACK_ENV=test```
 0. ```rspec```
-
-
-Technologies used:
--------
-* Sinatra
-* Postgresql
-* DataMapper
-* Sinatra flash
-* Sinatra partial
-* Rspec Sinatra
-* Database Cleaner
-* Capybara

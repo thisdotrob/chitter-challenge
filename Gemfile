@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.0'
 
 gem 'sinatra'
 gem 'data_mapper'
@@ -7,7 +7,6 @@ gem 'dm-postgres-adapter'
 gem 'dm-migrations'
 gem 'sinatra-flash'
 gem 'sinatra-partial'
-
 gem 'rake'
 
 group :test do
